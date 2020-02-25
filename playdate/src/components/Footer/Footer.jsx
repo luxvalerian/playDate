@@ -5,7 +5,7 @@ import styles from './Footer.module.css';
 const Footer = (props) => {
     return (
         <footer className={styles.footer}>
-            <h1>Copyright playDate</h1>
+            <p>Copyright &copy; playDate {new Date().getFullYear()}</p>
         </footer>
     );
 }
