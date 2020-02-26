@@ -4,8 +4,12 @@
     height: 5rem;
     background-color: #6495ed;
     justify-content: space-around;
-    color: #ffffff;
     box-shadow: 2px 2px 7px 2px lightgrey;
+}
+
+.navbar h1 {
+    font-family: 'Luckiest Guy', serif;
+    font-size: 2rem;
 }
 
 .navbar ul {
@@ -20,4 +24,9 @@
 
 .navbar ul li:hover {
     border-bottom: 2px solid gray;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff
 }
