@@ -9,10 +9,9 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Playdates from './pages/Playdates/Playdates';
 import Login from './pages/Login/Login';
+import Signup from './pages/Signup/Signup';
 
 import './App.css';
-import Login from './pages/Login/Login';
-import Signup from './pages/Signup/Signup';
 
 function App() {
   return (
@@ -27,9 +26,9 @@ function App() {
             <Playdates />
           }/>
           <Route exact path="/login" render={props => 
-            <Login />
+            <Login /> //page component login
           }/>
-          <Route exact path="/signup" render={props => 
+          <Route exact path="/signup" render={props => //route for signup
             <Signup />
           }/>
         </Switch>
