@@ -8,8 +8,11 @@ import Footer from './components/Footer/Footer';
 //  page components
 import Home from './pages/Home/Home';
 import Playdates from './pages/Playdates/Playdates';
+import Login from './pages/Login/Login';
 
 import './App.css';
+import Login from './pages/Login/Login';
+import Signup from './pages/Signup/Signup';
 
 function App() {
   return (
@@ -22,6 +25,12 @@ function App() {
           }/>
           <Route exact path="/playdates" render={props =>
             <Playdates />
+          }/>
+          <Route exact path="/login" render={props => 
+            <Login />
+          }/>
+          <Route exact path="/signup" render={props => 
+            <Signup />
           }/>
         </Switch>
         
