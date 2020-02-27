@@ -13,8 +13,12 @@ const Navbar = (props) => {
                 <li>
                     <Link to="/playdates">Playdates</Link>
                 </li> 
-                <li>Login</li>
-                <li>Sign up!</li>
+                <li>
+                    <Link to="/login">Login</Link>
+                </li>
+                <li>
+                    <Link to="/signup">Sign Up!</Link>
+                </li>
             </ul>
         </nav>
     );
