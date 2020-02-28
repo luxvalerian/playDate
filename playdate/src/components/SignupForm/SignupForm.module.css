@@ -12,3 +12,15 @@
     height: 1.7rem;
     background-color: #faebd7;
 }
+
+.form button {
+    width: 50%;
+    margin: 0 auto;
+    height: 2.5rem;
+    background-color: #b0c4de;
+    border-radius: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .95rem;
+}
