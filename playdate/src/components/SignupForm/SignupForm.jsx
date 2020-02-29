@@ -5,12 +5,16 @@ import styles from './SignupForm.module.css';
 class SignupForm extends Component {
 
     // below holds value of input tags
-    state = {
-        name: '',
-        email: '',
-        password: '',
-        passwordConf: ''
-    };
+    state = this.getInitialState();
+
+    getInitialState(){
+        return {
+            name: '',
+            email: '',
+            password: '',
+            passwordConf: ''
+        };
+    }
 
 
 // below, 'e' represents 'event'. no parentheses without more than one parameter
@@ -23,6 +27,12 @@ class SignupForm extends Component {
 
     handleSubmit = e => {
         e.preventDefault();
+        // we pass the data from state to a service module
+        // the service module wold make an AJAX call to
+        // our server and create new record in the database
+        // now we clear our form
+        this.setState(this.getInitialState());
+    
     }
 
     render () {
