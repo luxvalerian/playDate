@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// TODO: import userservice
 
 import styles from './LoginForm.module.css';
 
@@ -25,8 +26,10 @@ class LoginForm extends Component {
 
     handleSubmit = e => {
         e.preventDefault();
+        // TODO: call login function from userservice passing in credentials
         // now we clear our form
         this.setState(this.getInitialState());
+        // TODO: This is where you would call handleSignupOrLogin
     
     }
 
