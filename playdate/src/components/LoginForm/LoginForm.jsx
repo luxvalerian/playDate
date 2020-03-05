@@ -40,13 +40,19 @@ class LoginForm extends Component {
 
         try {
             const { email, password } = this.state;
+
             await userService.login({ email, password });
             // we pass the data from state to a service module
             // check if user exists then check for password match
             // if matched, token is created and sent to client
 
             // now we clear our form:
-            this.setState(this.getInitialState());
+            this.setState(this.getInitialState(), () => {
+                this.props.handleSignupOrLogin();
+                // route the user back to the home screen
+                this.props.history.push('/restaurants');
+                
+                });
 
         } catch (error) {
             
