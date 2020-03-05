@@ -46,8 +46,10 @@ class App extends Component {
             : <Redirect to="/login" />
             }/>
             <Route exact path="/login" render={props => 
-              <Login /> //page component login
-            }/>
+              <Login 
+                handleSignupOrLogin={this.handleSignupOrLogin} //page component login
+                />
+              }/>
             <Route exact path="/signup" render={props => //route for signup
               <Signup 
               {...props} 
