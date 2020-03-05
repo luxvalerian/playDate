@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // TODO: import userservice
 
 import styles from './LoginForm.module.css';
+import userService from '../../utils/userService';
 
 class LoginForm extends Component {
 
@@ -12,7 +13,16 @@ class LoginForm extends Component {
         return {
             email: '',
             password: '',
+            error: ''
         };
+    }
+
+    // returns expression that will evaluate presence of email and password
+    isFormValid = () => {
+        return (
+            this.state.email && 
+            this.state.password
+        );
     }
 
 
@@ -24,11 +34,25 @@ class LoginForm extends Component {
         });
     }
 
-    handleSubmit = e => {
+    handleSubmit = async e => {
         e.preventDefault();
+        if(!this.isFormValid()) return;
+
+        try {
+            const { email, password } = this.state;
+            await userService.login({ email, password });
+            // we pass the data from state to a service module
+            // check if user exists then check for password match
+            // if matched, token is created and sent to client
+
+            // now we clear our form:
+            this.setState(this.getInitialState());
+
+        } catch (error) {
+            
+        }
         // TODO: call login function from userservice passing in credentials
         // now we clear our form
-        this.setState(this.getInitialState());
         // TODO: This is where you would call handleSignupOrLogin
     
     }
@@ -57,7 +81,7 @@ class LoginForm extends Component {
                         onChange={this.handleChange}
                     />
                     
-                    <button type="submit">Login</button>
+                    <button disabled={this.isFormValid()} type="submit">Login</button>
                 </fieldset>
             </form>
         );
