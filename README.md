@@ -3,6 +3,8 @@ I have found many parents saying that raising a child requires a village but we 
 
 This real-life contact with others especially with mothers and their newborns is a primal need, which we have seen amongst other mammals.  
 
+<img width="1017" alt="Screen Shot 2020-03-07 at 2 57 44 PM" src="https://user-images.githubusercontent.com/51331068/76152336-199eab80-6084-11ea-81c3-f106a6bba932.png">
+
 But American society still depends on women to raise children and maintain the family status quo from birth through college.  Are women capable of doing this task, from the birth of their children to age 25, when children’s prefrontal cortex are finally formed (as evidenced by the decreased monthly premiums on auto insurance)?  I find that women who are medicated because of these challenges, as well as the increased rate of divorce with women taking on sole custody after divorce shows that American society has not yet built a strong support system for women and children.  
 
 Perhaps my app will bridge the gap between isolation as a stay-at-home-mom and the creation of a true village. 
