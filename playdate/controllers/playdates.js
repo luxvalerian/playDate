@@ -10,7 +10,7 @@ async function create(req, res) {
         // create an instance of playdate model
         // then call res.json and send created document as response
         const playdate = await Playdate.create(req.body);
-        res.json({ restaurant });
+        res.json({ playdate });
     } catch (error) {
         res.status(401).json({err: 'unauthorized'});
 
