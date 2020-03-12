@@ -42,7 +42,7 @@ class App extends Component {
             }/>
             <Route exact path="/playdates" render={props =>
             userService.getUser()
-            ? <Playdates />
+            ? <Playdates {...props}/>
             : <Redirect to="/login" />
             }/>
             <Route exact path="/login" render={props => 
