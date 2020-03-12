@@ -17,7 +17,7 @@ const userSchema = new Schema({
 
 userSchema.methods.comparePassword = function(tryPassword, callback) {
     bcrypt.compare(tryPassword, this.password, callback)
-}
+};
 
 userSchema.set('toJSON', {
     transform: function(doc, ret) {

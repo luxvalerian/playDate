@@ -30,6 +30,7 @@ class LoginForm extends Component {
     handleChange = e => {
         // make a call to setState. we want setState to reflect the changes
         this.setState({
+            error: '',
             [e.target.name]: e.target.value
         });
     }
@@ -50,11 +51,15 @@ class LoginForm extends Component {
             this.setState(this.getInitialState(), () => {
                 this.props.handleSignupOrLogin();
                 // route the user back to the home screen
-                this.props.history.push('/restaurants');
-                
+                this.props.history.push('/playdates');
                 });
 
         } catch (error) {
+            this.setState({
+                email: '',
+                password: '',
+                error: error.message
+            });
             
         }
         // TODO: call login function from userservice passing in credentials
@@ -65,7 +70,11 @@ class LoginForm extends Component {
 
     render () {
         return (
-            <form onSubmit={this.handleSubmit} className={styles.form}>
+            <section className={styles.section}>
+                {
+                    this.state.error && <p>{this.state.error}</p>
+                }
+            <form onSubmit={this.handleSubmit} >
                 <fieldset> 
                     <legend>Login Form</legend>
                     
@@ -76,7 +85,7 @@ class LoginForm extends Component {
                         type="email" 
                         value={this.state.email}
                         onChange={this.handleChange}
-                    />
+                        />
                     
                     <label htmlFor="password">Password</label>
                     <input 
@@ -85,11 +94,12 @@ class LoginForm extends Component {
                         type="password" 
                         value={this.state.password}
                         onChange={this.handleChange}
-                    />
+                        />
                     
-                    <button disabled={this.isFormValid()} type="submit">Login</button>
+                    <button disabled={!this.isFormValid()} type="submit">Login</button>
                 </fieldset>
             </form>
+        </section>
         );
     }
 }

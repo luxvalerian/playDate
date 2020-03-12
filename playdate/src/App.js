@@ -47,6 +47,7 @@ class App extends Component {
             }/>
             <Route exact path="/login" render={props => 
               <Login 
+                {...props}
                 handleSignupOrLogin={this.handleSignupOrLogin} //page component login
                 />
               }/>
