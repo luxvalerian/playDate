@@ -1,8 +1,18 @@
 const Playdate = require('../models/playdate');
 
 module.exports = {
-    create
+    create,
+    index
 };
+
+async function index(req, res) {
+    try {
+        const playdates = await Playdate.find({}).sort('-createdAt');
+        res.json({ playdates });
+    } catch (error) {
+        res.status(401).json({ err: 'unauthorized'});
+    }
+}
 
 async function create(req, res) {
     // trycatch is JUST for error handling:
