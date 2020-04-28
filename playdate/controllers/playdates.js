@@ -2,12 +2,24 @@ const Playdate = require('../models/playdate');
 
 module.exports = {
     create,
-    index
+    index,
+    getFeatured
 };
+ 
+async function getFeatured(req, res) {
+    try {
+        const featuredPlaydates = await Playdate.find({})
+        .sort('-createdAt').limit(3).populate('addedBy');
+        res.json({ featuredPlaydates });
+    } catch (error) {
+        res.status(400).json({err: 'bad request' });
+    }
+}
 
 async function index(req, res) {
     try {
-        const playdates = await Playdate.find({}).sort('-createdAt');
+        const playdates = await Playdate.find({})
+        .sort('-createdAt').populate('addedBy');
         res.json({ playdates });
     } catch (error) {
         res.status(401).json({ err: 'unauthorized'});
