@@ -49,9 +49,11 @@ class LoginForm extends Component {
 
             // now we clear our form:
             this.setState(this.getInitialState(), () => {
+
                 this.props.handleSignupOrLogin();
                 // route the user back to the home screen
                 this.props.history.push('/playdates');
+                
                 });
 
         } catch (error) {
