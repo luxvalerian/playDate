@@ -45,6 +45,7 @@ class PlaydateForm extends Component {
             const addedBy = userService.getUser()._id
             await playdateService.create({ title, location, addedBy });
             this.setState(this.getInitialState(), () => {
+                this.props.handleGetPlaydates();
                 // route the user back to the home screen
                 this.props.history.push('/playdates');
                 });
