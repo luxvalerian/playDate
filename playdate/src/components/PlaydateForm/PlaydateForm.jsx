@@ -73,7 +73,7 @@ class PlaydateForm extends Component {
                 <fieldset> 
                     <legend>New Playdate Form</legend>
                     
-                    <label htmlFor="email">Title</label>
+                    <label htmlFor="title">Title</label>
                     <input 
                         id="title" 
                         name="title" 
