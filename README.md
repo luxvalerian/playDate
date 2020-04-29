@@ -18,14 +18,11 @@ Perhaps my app will bridge the gap between isolation as a stay-at-home-mom and t
 Check it out
 ------------
 
-[Stay-at-Home Moms Report More Depression, Sadness, Anger But low-income stay-at-home moms struggle the most]
-(https://news.gallup.com/poll/154685/stay-home-moms-report-depression-sadness-anger.aspx)
+[Stay-at-Home Moms Report More Depression, Sadness, Anger But low-income stay-at-home moms struggle the most](https://news.gallup.com/poll/154685/stay-home-moms-report-depression-sadness-anger.aspx)
 
-[Why Swedes Are Chiller Parents Than Americans A new book looks at the wide variety of parenting styles around the world.]
-(https://www.theatlantic.com/family/archive/2019/02/american-parents-scandinavian-different/582103/)
+[Why Swedes Are Chiller Parents Than Americans A new book looks at the wide variety of parenting styles around the world.](https://www.theatlantic.com/family/archive/2019/02/american-parents-scandinavian-different/582103/)
 
-[Stay at home moms are more depressed than moms who go to work]
-(https://www.huffpost.com/entry/depression-stay-at-home-moms_n_1527302)
+[Stay at home moms are more depressed than moms who go to work](https://www.huffpost.com/entry/depression-stay-at-home-moms_n_1527302)
 
 Technologies Used
 -----------------
