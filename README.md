@@ -2,9 +2,15 @@ playDate
 =========
 
 
+<<<<<<< HEAD
 I have found many parents
 ------------------------- 
 who say that raising a child requires a village but we rarely see these villages gathering except online on facebook. One of my nannies said that she and her friends felt obligated to join Facebook if they wanted to get jobs as nannies because it was there that they could find _“facebook moms”_. Although this imagined village keeps mothers connected and provides a great resource for advice on mothering, which requires a great learning curve especially in the areas of breastfeeding, cloth diapering, baby wearing, housekeeping, self-care with a newborn child, and the challenges of maintaining an amicable marriage upon birth and through the preschool years, the online village has kept mothers isolated from real-life contact with other mothers, and has contributed to postpartum depression and increased use of antidepressant medications.
+=======
+<img width="1017" alt="Screen Shot 2020-03-07 at 2 57 44 PM" src="https://user-images.githubusercontent.com/51331068/76152336-199eab80-6084-11ea-81c3-f106a6bba932.png">
+
+But American society still depends on women to raise children and maintain the family status quo from birth through college.  Are women capable of doing this task, from the birth of their children to age 25, when children’s prefrontal cortex are finally formed (as evidenced by the decreased monthly premiums on auto insurance)?  I find that women who are medicated because of these challenges, as well as the increased rate of divorce with women taking on sole custody after divorce shows that American society has not yet built a strong support system for women and children.  
+>>>>>>> df0635b8f4cfa80712754e7f189108b3209d25a5
 
 ##This real-life contact with others 
 especially with mothers and their newborns is a primal need, which we have seen amongst other mammals.
