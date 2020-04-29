@@ -33,8 +33,6 @@ Technologies Used
 
 Planning and Getting Started:
 -----------------------------
-* Trello
-[https://trello.com/b/hpH7ncv7/playdate]
-* Heroku
-[https://playdate2020.herokuapp.com/]
+* [Trello](https://trello.com/b/hpH7ncv7/playdate)
+* [Heroku](https://playdate2020.herokuapp.com/)
 
