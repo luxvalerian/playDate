@@ -27,6 +27,8 @@ Future Developments:
 * Admin privileges to add or edit a playdate
 * Comments by users with associated playdates
 
+![image](https://user-images.githubusercontent.com/51331068/80659685-44d3c480-8a4f-11ea-9115-9d281da78eac.png)
+
 *I have found many parents who say that raising a child* requires a village but we rarely see these villages gathering except online on facebook. One of my nannies said that she and her friends felt obligated to join Facebook if they wanted to get jobs as nannies because it was there that they could find “facebook moms”. Although this imagined village keeps mothers connected and provides a great resource for advice on mothering, which requires a great learning curve especially in the areas of breastfeeding, cloth diapering, baby wearing, housekeeping, self-care with a newborn child, and the challenges of maintaining an amicable marriage upon birth and through the preschool years, the online village has kept mothers isolated from real-life contact with other mothers, and has contributed to postpartum depression and increased use of antidepressant medications.
 
 
